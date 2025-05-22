@@ -18,3 +18,10 @@ def token_valido(usuario_admin):
 @pytest.fixture
 def var_raiz():    
     return "raiz"
+
+@pytest.fixture
+def datos_devolucion(request):
+    """Fixture que recibe parámetros desde el test."""
+    parametros = request.param
+    # Aquí podrías incluir lógica adicional, como validaciones o transformaciones
+    return parametros

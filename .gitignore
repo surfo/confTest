@@ -5,3 +5,5 @@ report/logs
 data/test_results.json
 output.json
 *.html
+archive/
+.venv
