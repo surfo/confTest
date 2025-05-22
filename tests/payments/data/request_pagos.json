@@ -1,0 +1,16 @@
+{
+    "request_pagos_pasivos": {
+    "monto": {
+      "valor": 1,
+      "moneda": "ARS"
+    },
+    "pagador": {
+      "nombre": "xxxx",
+      
+      "cuenta": {
+        "tipo": "CA",
+        "numero": "#(config.clientes.aceptadores.cuenta)"
+     }
+    }
+  } 
+}

@@ -1,0 +1,13 @@
+{
+  "environment_config": {
+    "url_base": "https://pago/homologacion"    
+  },
+  "clientes": {
+    "aceptadores": {
+      "cuenta": "342rerte344-rerw-535-54re-r435ewr"     
+    },
+    "billeteras": {
+      "cuenta_wallet": "dsadasew-weqe-ewq-3421eqw-43ewq"      
+    }
+  }
+}
