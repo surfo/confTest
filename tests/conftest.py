@@ -18,3 +18,4 @@ def token_valido(usuario_admin):
 @pytest.fixture
 def var_raiz():    
     return "raiz"
+
